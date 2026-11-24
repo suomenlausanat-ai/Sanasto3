@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes skeleton-shimmer {
+  0% { opacity: 0.55; }
+  50% { opacity: 1; }
+  100% { opacity: 0.55; }
+}
+
+.skeleton-shimmer {
+  animation: skeleton-shimmer 1.5s ease-in-out infinite;
+}
